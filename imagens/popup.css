@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DADADA;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+
+
+
+
+  .popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #15455b;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+   p{ 
+    color: #ededed;
+   }
+  .popup-content {
+    color: #0098C3;
+    text-align: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #DADADA;
+    font-size: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #DADADA;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #DADADA;
+    color: #141414;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
